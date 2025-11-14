@@ -1,0 +1,71 @@
+
+
+body {
+  font-family: "Zalando Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+  overflow: scroll;
+}
+#taskinput{
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-family: "Zalando Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+#addtask{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-family: "Zalando Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.remove-btn{
+    background-color: red;
+    position: absolute;
+    right: 850px;
+    width: 25px;
+    height: 25px;
+}
+#container{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    top:0%;
+    padding: 20px;
+    border: 1px white solid;
+    text-align: center;
+    border-radius: 5px;
+    display: grid;
+}
+.taskdiv{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto 30px;
+    margin-top: 10px;
+    padding: 10px;
+    gap: 10px;
+    border: 1px solid white;
+
+}
+.checkbox{
+    width: 20px;
+    height: 20px;
+    text-align: center;
+}
+.completion-date{
+    height: 25px;
+}
